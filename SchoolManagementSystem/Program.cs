@@ -6,7 +6,11 @@ namespace SchoolManagementSystem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var myStaffDetails = new StaffDetails();
+            myStaffDetails.StaffID = 123456;
+            myStaffDetails.StaffName = "Gana";
+            myStaffDetails.MobileNumber = 99987655777;
+            
         }
     }
 }
